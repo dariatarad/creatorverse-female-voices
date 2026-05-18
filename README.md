@@ -1,16 +1,54 @@
-# React + Vite
+# 👩‍💻 WEB103 Prework - Female Voices of TikTok
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Submitted by: **Daria Taradina**
 
-Currently, two official plugins are available:
+About this web app: **A curated collection of female TikTok creators worth following — spanning STEM, art, marketing, fashion, and more. Users can browse creators, view their profiles, and add, edit, or delete entries.**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Time spent: **13** hours
 
-## React Compiler
+## ✅ Required Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The following **required** functionality is completed:
 
-## Expanding the ESLint configuration
+- [x] **A logical component structure in React is used to create the frontend of the app**
+- [x] **At least five content creators are displayed on the homepage of the app**
+- [x] **Each content creator item includes their name, a link to their channel/page, and a short description of their content**
+- [x] **API calls use the async/await design pattern via Axios or fetch()**
+- [x] **Clicking on a content creator item takes the user to their details page, which includes their name, url, and description**
+- [x] **Each content creator has their own unique URL**
+- [x] **The user can edit a content creator to change their name, url, or description**
+- [x] **The user can delete a content creator**
+- [x] **The user can add a new content creator by entering a name, url, or description and then it is displayed on the homepage**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The following **optional** features are implemented:
+
+- [ ] Picocss is used to style HTML elements
+- [x] The content creator items are displayed in a creative format, like cards instead of a list
+- [x] An image of each content creator is shown on their content creator card
+
+The following **additional** features are implemented:
+
+* [x] Persistent navbar with View All and Add Creator buttons accessible on every page
+* [x] Masonry card layout with alternating TikTok brand color accents (cyan/red)
+* [x] Three-dot dropdown menu on each card for Edit and Delete actions
+* [x] Form validation — required fields, TikTok handle format check, and duplicate handle detection
+* [x] Reusable DeleteButton component used across Card, EditCreator, and ViewCreator
+* [x] Dark mode UI with TikTok-branded color palette (#69C9D0 and #EE1D52)
+* [x] Avatar fallback showing creator's initial when no image is provided
+
+## 📽 Video Walkthrough
+
+
+## 📝 Notes
+
+The most challenging part was resolving a duplicate React instance error caused by mismatched package versions between react-router-dom and the React version. This was fixed by pinning all three packages to aligned versions. Form validation including real-time duplicate TikTok handle checking against Supabase was also added beyond the base requirements.
+
+## © License
+
+Copyright 2026 Daria Taradina
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+> http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
