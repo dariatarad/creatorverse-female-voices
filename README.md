@@ -38,8 +38,7 @@ The following **additional** features are implemented:
 
 ## 📽 Video Walkthrough
 
-<img width="800" height="450" alt="ezgif-65abc6c4e4159e5b" src="https://github.com/user-attachments/assets/6dc8e977-ce22-466a-82bf-2d74f3e619ae" />
-
+<img width="800" height="450" alt="demo" src="https://github.com/user-attachments/assets/109cb030-12a8-4a63-9e1d-30f38179bd91" />
 
 
 ## 📝 Notes
